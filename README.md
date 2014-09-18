@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/strider-status-report.png)](https://nodei.co/npm/strider-status-report/)
+
 strider-status-report
 =====================
 
