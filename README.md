@@ -21,40 +21,70 @@ X-Powered-By: Express
 
 [
     {
+        "project": "some-project",
         "branches": [
             {
                 "name": "master",
-                "status": {
+                "finished": "2014-10-14T10:11:00.231Z",
+                "data": {
                     "deploy_exitcode": -1,
-                    "test_exitcode": -1
+                    "test_exitcode": 0,
+                    "plugin_data": {
+                        "node": {
+                            "testCmd": "passed",
+                            "doTest": true
+                        }
+                    }
                 }
             },
             {
-                "name": "*",
-                "status": null
+                "name": "some-feature-branch",
+                "finished": "2014-10-14T10:11:00.231Z",
+                "data": {
+                    "deploy_exitcode": -1,
+                    "test_exitcode": 0,
+                    "plugin_data": {
+                        "node": {
+                            "testCmd": "passed",
+                            "doTest": true
+                        }
+                    }
+                }
             }
-        ],
-        "project": "keyvanfatehi/mib"
+        ]
     },
     {
+        "some-other-project",
         "branches": [
             {
                 "name": "master",
-                "status": {
+                "finished": "2014-10-14T10:11:00.231Z",
+                "data": {
                     "deploy_exitcode": -1,
-                    "test_exitcode": -1
+                    "test_exitcode": 0,
+                    "plugin_data": {
+                        "node": {
+                            "testCmd": "passed",
+                            "doTest": true
+                        }
+                    }
                 }
             },
             {
-                "name": "*",
-                "status": null
-            },
-            {
-                "name": "test",
-                "status": null
+                "name": "some-feature-branch",
+                "finished": "2014-10-14T10:11:00.231Z",
+                "data": {
+                    "deploy_exitcode": -1,
+                    "test_exitcode": 0,
+                    "plugin_data": {
+                        "node": {
+                            "testCmd": "passed",
+                            "doTest": true
+                        }
+                    }
+                }
             }
-        ],
-        "project": "keyvanfatehi/dew"
+        ]
     }
 ]
 ```
